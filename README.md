@@ -35,3 +35,6 @@ PyShiny Playground already includes most of the packages you're likely to use. P
 
 Implement Your Custom App
 Create your interactive input. Define the reactive function to update based on user input and / or a regular interval. Display interesting outputs based on the interaction or interval. Include a data table or grid and at least one chart. 
+
+## Open pyshiny app in vscode
+shiny run --reload --launch-browser dashboard/app.py
