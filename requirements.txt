@@ -1,9 +1,7 @@
-faicons
-palmerpenguins
-pandas
-pyarrow
 plotly
-seaborn
+yfinance 
+pandas
 shiny
-shinylive
 shinywidgets
+faicons
+cufflinks
