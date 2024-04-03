@@ -4,6 +4,5 @@ pandas
 shiny
 shinywidgets
 faicons
-cufflinks
 plotly.express
 shiny.express
