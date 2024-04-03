@@ -22,7 +22,49 @@ with ui.sidebar():
     ui.input_date_range("dates", "Select dates", start=start, end=end)
     ui.input_numeric("quantity", "Quantity", min=1, max=100, step=1, value=1)
 
+    # Links and newsfeed section
+    ui.h6("Newsfeed and links:")
+    ui.a(
+        "APPL Google Financial today",
+        href="https://www.google.com/search?sca_esv=f16471168e6fc9b9&sca_upv=1&rlz=1C5CHFA_enUS748US748&sxsrf=ACQVn0_zAqWeiIBc3fzp9NY3AiSMHIloog:1712106682380&q=google+finance+AAPL&sa=X&ved=2ahUKEwiaiPu07qSFAxULElkFHQ3ODS0Q7xYoAHoECAkQAg&biw=1598&bih=788&dpr=1",
+        style="color: #007bff;",  # Blue color for links
+        target="_blank",
+      
+    )
 
+    ui.a(
+        "APPL Bloomberg",
+        href="https://www.bloomberg.com/news/articles/2024-04-02/apple-flirts-with-support-levels-after-worst-quarter-in-a-decade?embedded-checkout=true",
+        target="_blank",
+        style="color: #007bff;",  # Blue color for links
+    )
+    ui.a(
+        "APPL Yahoo Finance Today",
+        href="https://finance.yahoo.com/quote/AAPL/",
+        target="_blank",
+        style="color: #007bff;",  # Blue color for links
+    )
+
+    ui.a(
+        "GitHub Source",
+        href="https://github.com/drodmay1/cintel-06-custom",
+        target="_blank",
+        style="color: #007bff;",  # Blue color for links
+    )
+    
+    ui.a(
+        "GitHub App",
+        href="https://github.com/drodmay1/cintel-06-custom/blob/main/dashboard/app.py",
+        target="_blank",
+        style="color: #007bff;",  # Blue color for links
+    )
+    ui.a(
+        "PyShiny", 
+        href="https://shiny.posit.co/py/", 
+        target="_blank",
+        style="color: #007bff;",  # Blue color for links
+    )
+   
 with ui.layout_column_wrap(fill=False):
     with ui.value_box(showcase=icon_svg("dollar-sign")):
         "Current Price"
