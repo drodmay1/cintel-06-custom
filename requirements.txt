@@ -5,3 +5,4 @@ shinywidgets
 faicons
 plotly.express
 shiny.express
+yfinance
